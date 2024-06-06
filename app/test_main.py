@@ -34,16 +34,20 @@ def products() -> list:
         ),
         (
             ["chicken", "duck"],
-            datetime.date(2022, 2, 6)
+            datetime.date(2022, 2, 8)
         ),
         (
             ["duck"],
-            datetime.date(2022, 2, 2)
+            datetime.date(2022, 2, 3)
         ),
         (
             [],
-            datetime.date(2022, 1, 1)
+            datetime.date(2022, 1, 15)
         ),
+        (
+            [],
+            datetime.date(2022, 2, 1)
+        )
     ]
 )
 def test_outdated_products(
